@@ -1,0 +1,87 @@
+{
+ "fig4_blind": {
+  "NaV1.7 (6N4I pocket-1)": {
+   "Positive (KIIIA)": {
+    "KIIIA": -12.6
+   },
+   "Negative": {
+    "GIIIA": -36.5,
+    "CnIIIC": -12.7,
+    "MVIIA": -11.7,
+    "GVIA": -16.1,
+    "MrVIB": -23.0,
+    "MrIA": -23.6
+   }
+  },
+  "NaV1.4 (6AGF pocket-1)": {
+   "Positive": {
+    "GIIIA": -32.6,
+    "CnIIIC": -33.5
+   },
+   "Negative": {
+    "KIIIA": -37.4,
+    "MVIIA": -42.6
+   }
+  },
+  "a7 (7EKO ECD)": {
+   "Positive (ImI)": {
+    "ImI": -15.2
+   },
+   "Negative": {
+    "AuIB": -16.8,
+    "TxIA": -12.4,
+    "Vc1.1": -17.5
+   }
+  },
+  "a3b4 (6PV7 pocket-1)": {
+   "Positive (AuIB)": {
+    "AuIB": -15.2
+   },
+   "Negative": {
+    "ImI": -13.3,
+    "GID": -22.7,
+    "TxIA": -15.9
+   }
+  }
+ },
+ "fig5_scale": {
+  "MVIIA": {
+   "CaV2.2": -17.9,
+   "NaV1.7": -11.7,
+   "NaV1.4": -92.8
+  },
+  "GVIA": {
+   "CaV2.2": -15.9,
+   "NaV1.7": -16.1,
+   "NaV1.4": -87.7
+  },
+  "GIIIA": {
+   "CaV2.2": -18.1,
+   "NaV1.7": -36.5,
+   "NaV1.4": -88.0
+  },
+  "MrIA": {
+   "CaV2.2": -10.6,
+   "NaV1.7": -23.6,
+   "NaV1.4": -88.6
+  }
+ },
+ "fig6_circular": {
+  "Circular (6J8E site, KIIIA own structure)": {
+   "KIIIA": -100.0,
+   "MVIIA": -84.1,
+   "GVIA": -87.4,
+   "MrVIB": -87.6,
+   "MrIA": -87.2
+  },
+  "Non-circular (6AGF pore)": {
+   "KIIIA": -87.9,
+   "GIIIA": -88.0,
+   "CnIIIC": -77.2,
+   "MVIIA": -92.8,
+   "GVIA": -87.7,
+   "MrVIB": -77.4,
+   "MrIA": -88.6
+  }
+ }
+}

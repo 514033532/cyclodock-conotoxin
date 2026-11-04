@@ -1,0 +1,129 @@
+{
+ "fig2": {
+  "NaV1.4 pore (6AGF)": {
+   "Positive (u-conotoxins, NaV1.4-active)": {
+    "GIIIA": -88.0,
+    "KIIIA": -87.9,
+    "CnIIIC": -77.2
+   },
+   "Negative (NaV-inactive)": {
+    "MVIIA": -92.8,
+    "MrIA": -88.6,
+    "GVIA": -87.7,
+    "MrVIB": -77.4
+   }
+  },
+  "NaV1.8 pore (9DBK)": {
+   "Positive (uO-MrVIB, 102 nM)": {
+    "MrVIB": -21.5
+   },
+   "Negative": {
+    "CnIIIC": -79.6,
+    "GIIIA": -71.2,
+    "GVIA": -68.8,
+    "MVIIA": -65.7,
+    "KIIIA": -51.4,
+    "MrIA": -46.3
+   }
+  },
+  "CaV2.2 (7MIY, pocket-anchored)": {
+   "Positive (omega-conotoxins)": {
+    "MVIIA": -17.9,
+    "GVIA": -15.9,
+    "CVID": -18.4
+   },
+   "Negative": {
+    "MrVIB": -24.6,
+    "GIIIA": -18.1,
+    "KIIIA": -15.0,
+    "AuIB": -12.7,
+    "ImI": -11.7,
+    "MrIA": -10.6
+   }
+  }
+ },
+ "fig3": {
+  "NaV1.7 pocket-1 (6N4I)": {
+   "Hydrophobic (ILVMF)": 297,
+   "Aromatic (FYW)": 38,
+   "Polar (STNQ)": 35,
+   "Charged (DERKH)": 0
+  },
+  "NaV1.4 pocket-1 (6AGF)": {
+   "Hydrophobic (ILVMF)": 253,
+   "Aromatic (FYW)": 22,
+   "Polar (STNQ)": 14,
+   "Charged (DERKH)": 0
+  }
+ },
+ "toxins": [
+  "MVIIA",
+  "GVIA",
+  "CVID",
+  "KIIIA",
+  "GIIIA",
+  "SIIIA",
+  "CnIIIC",
+  "MrVIB",
+  "ImI",
+  "GID",
+  "AuIB",
+  "TxIA",
+  "Vc1.1",
+  "MrIA",
+  "GVIIIA",
+  "con-G"
+ ],
+ "targets": [
+  "CaV2.2",
+  "NaV1.2",
+  "NaV1.4",
+  "NaV1.7",
+  "NaV1.8",
+  "a7",
+  "a4b2",
+  "a3b4",
+  "NET",
+  "5-HT3R",
+  "NMDA"
+ ],
+ "matrix": {
+  "MVIIA|CaV2.2": "T",
+  "MVIIA|NaV1.2": "N",
+  "MVIIA|NaV1.4": "N",
+  "MVIIA|NaV1.7": "N",
+  "GVIA|CaV2.2": "T",
+  "GVIA|NaV1.2": "N",
+  "GVIA|NaV1.4": "N",
+  "CVID|CaV2.2": "T",
+  "KIIIA|NaV1.2": "T",
+  "KIIIA|NaV1.4": "T",
+  "KIIIA|NaV1.7": "T",
+  "GIIIA|NaV1.4": "T",
+  "GIIIA|NaV1.2": "W",
+  "GIIIA|NaV1.7": "W",
+  "SIIIA|NaV1.2": "T",
+  "SIIIA|NaV1.4": "T",
+  "CnIIIC|NaV1.4": "T",
+  "CnIIIC|NaV1.2": "W",
+  "MrVIB|NaV1.8": "T",
+  "MrVIB|NaV1.4": "W",
+  "MrVIB|NaV1.7": "N",
+  "ImI|a7": "T",
+  "ImI|a3b4": "N",
+  "GID|a4b2": "T",
+  "GID|a7": "T",
+  "GID|a3b4": "N",
+  "AuIB|a3b4": "T",
+  "AuIB|a7": "N",
+  "TxIA|a3b2": "T",
+  "TxIA|a7": "N",
+  "TxIA|a3b4": "N",
+  "Vc1.1|a9a10": "T",
+  "Vc1.1|a7": "N",
+  "MrIA|NET": "T",
+  "MrIA|NaV1.7": "N",
+  "GVIIIA|5-HT3R": "T",
+  "con-G|NMDA": "T"
+ }
+}
